@@ -1,16 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*import { BackpackIcon } from "@radix-ui/react-icons";
 
 const Cart = () => {
@@ -24,4 +11,4 @@ const Cart = () => {
 	);
 };
 
-export default Cart;
+export default Cart;*/
