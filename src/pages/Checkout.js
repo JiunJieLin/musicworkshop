@@ -1,7 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Breadcrumb from "@/components/Breadcrumb";
 import Advertisement from "@/components/Advertisement";
-import ShoppingList from "@/components/ShoppingList";
+//import ShoppingList from "@/components/ShoppingList";
 
 const Checkout = () => {
   return (
@@ -9,9 +9,6 @@ const Checkout = () => {
       <Navigation />
       <Breadcrumb />
       <Advertisement />
-
-      {/* 這裡放新增的表單 */}
-      <ShoppingList />
     </main>
   );
 };
