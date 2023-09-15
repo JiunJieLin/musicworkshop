@@ -1,7 +1,6 @@
 import Navigation from "@/components/Navigation";
 import Breadcrumb from "@/components/Breadcrumb";
 import Advertisement from "@/components/Advertisement";
-//import ShoppingList from "@/components/ShoppingList";
 
 const Checkout = () => {
   return (
