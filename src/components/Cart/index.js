@@ -15,4 +15,3 @@ const Cart = () => {
 };
 
 export default Cart;
-//bg-black text-slate-50 px-4 text-sm py-2 rounded-3xl cursor-pointer hover:opacity-80 transition-opacity flex items-flex gap-3
