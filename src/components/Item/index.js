@@ -1,6 +1,6 @@
 import AddButton from "../AddButton/AddButton";
 import { useContext } from "react";
-import { ProductContext } from "@data/context";
+import { ProductContext } from "@/data/context";
 
 const Item = ({ data }) => {
   const { cart, setCart } = useContext(ProductContext);
