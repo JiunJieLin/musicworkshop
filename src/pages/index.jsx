@@ -7,11 +7,8 @@ import { useState, useMemo } from "react";
 import { ProductProvider } from "@/data/context";
 
 const Home = () => {
-  const [cart, setCart] = useState({});
-  const value = useMemo(() => ({ cart, setCart }), [cart]);
-
   return (
-    <ProductProvider value={value}>
+    <ProductProvider>
       <main className="min-h-screen mx-auto max-w-[1920px]">
         <Navigation />
         <Advertisement />
